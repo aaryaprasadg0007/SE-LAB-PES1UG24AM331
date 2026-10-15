@@ -34,3 +34,8 @@ The menu supports Espresso, Americano and Latte, with Small and Large sizes. The
 ## Final check before submission
 
 Confirm that the `Lab3` folder is in the intended course repository and that the diagram PDF and one-page justification PDF open correctly after upload. The PNG and SVG are included as convenient preview/editing files; the handout requires the diagram in PNG or PDF and the justification as PDF.
+
+
+## Lab 4 - VibeCoding
+
+The completed code and supporting documents for assignment 31 (`31_galaga`) are in [`Lab-4/31_galaga`](Lab-4/31_galaga/). Genuine before/after gameplay recordings and the actual ChatGPT export/share link remain to be added as listed in that folder's checklist.
