@@ -1,0 +1,1 @@
+NOT RUN: pylint is not installed or not on PATH.

@@ -1,0 +1,17 @@
+test_add_valid_contact (test_address_book.AddressBookTests.test_add_valid_contact) ... ok
+test_contact_id_is_stable_and_six_characters (test_address_book.AddressBookTests.test_contact_id_is_stable_and_six_characters) ... ok
+test_contacts_are_grouped_by_city (test_address_book.AddressBookTests.test_contacts_are_grouped_by_city) ... ok
+test_csv_export_writes_contact_fields (test_address_book.AddressBookTests.test_csv_export_writes_contact_fields) ... ok
+test_json_backup_restore_round_trip (test_address_book.AddressBookTests.test_json_backup_restore_round_trip) ... ok
+test_rejects_invalid_phone (test_address_book.AddressBookTests.test_rejects_invalid_phone) ... ok
+test_restore_rejects_invalid_phone_number (test_address_book.AddressBookTests.test_restore_rejects_invalid_phone_number) ... ok
+test_restore_rejects_malformed_json (test_address_book.AddressBookTests.test_restore_rejects_malformed_json) ... ok
+test_restore_rejects_unexpected_shape (test_address_book.AddressBookTests.test_restore_rejects_unexpected_shape) ... ok
+test_search_matches_case_insensitive_name_and_phone (test_address_book.AddressBookTests.test_search_matches_case_insensitive_name_and_phone) ... ok
+test_update_city_absent_contact_returns_false (test_address_book.AddressBookTests.test_update_city_absent_contact_returns_false) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.005s
+
+OK
+Invalid phone number for Test User

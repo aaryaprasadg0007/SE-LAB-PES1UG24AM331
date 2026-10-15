@@ -1,0 +1,10 @@
+Invalid phone number for Test User
+No contact named Nobody
+1 Kavya Nair 9988776655
+2 Neha Sharma 9876543210
+3 Rahul Verma 9123456780
+Search 'ra': ['Rahul Verma']
+By city: {'Bengaluru': ['Neha Sharma', 'Kavya Nair'], 'Chennai': ['Rahul Verma']}
+Id for Neha: 8c1a8a6f1c5e0d2444f389f657ccddb38d109f0c363aa67ffcdba600d0485fa5
+Contacts restored: 3 | first: Kavya Nair
+Restored contacts match the in-memory address book: True

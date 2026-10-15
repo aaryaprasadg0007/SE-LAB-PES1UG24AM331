@@ -1,0 +1,1 @@
+NOT RUN: bandit is not installed or not on PATH.
