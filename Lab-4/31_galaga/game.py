@@ -39,8 +39,8 @@ def on_wave_start(wave):
 
 
 def shield_charges(wave):
-    """Return how many hits the player's shield can absorb this wave, or None to disable the shield."""
-    pass
+    """Grant one shield charge every third positive wave; otherwise disable the shield."""
+    return 1 if wave > 0 and wave % 3 == 0 else 0
 
 
 ENEMY_COLORS = {"boss": (90, 220, 90), "red": (230, 70, 70), "blue": (80, 140, 240)}
