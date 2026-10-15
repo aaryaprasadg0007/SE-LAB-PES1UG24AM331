@@ -1,0 +1,5 @@
+Local validation report (2026-10-15):
+- 5 unit tests passed.
+- Python syntax compilation passed for game.py, evidence/baseline_game.py, and tests/test_game_logic.py.
+- Pygame could not be installed in the preparation environment because package network access was unavailable; therefore an interactive run was not performed here.
+- The generated MP4 previews are illustrative animations and are explicitly not screen recordings.
