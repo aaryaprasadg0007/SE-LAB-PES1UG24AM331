@@ -6,6 +6,8 @@ WIDTH, HEIGHT = 600, 700
 PLAYER_Y, PLAYER_SPEED, SHIP_GAP = HEIGHT - 50, 300, 30
 ENTRY_TIME = 2.0
 
+_current_wave = 1
+
 
 def bezier(p0, p1, p2, p3, t):
     u = 1 - t
@@ -15,8 +17,15 @@ def bezier(p0, p1, p2, p3, t):
 
 
 def enemy_tint(kind):
-    """Return an (r, g, b) colour override for an enemy kind, or None for the default."""
-    pass
+    """Return the active wave's enemy palette override, or None for the default."""
+    if kind not in ENEMY_COLORS or _current_wave <= 1:
+        return None
+    palettes = (
+        {"boss": (255, 190, 70), "red": (255, 100, 120), "blue": (80, 230, 220)},
+        {"boss": (210, 120, 255), "red": (255, 145, 65), "blue": (125, 165, 255)},
+        {"boss": (255, 235, 90), "red": (230, 90, 200), "blue": (80, 245, 155)},
+    )
+    return palettes[(_current_wave - 2) % len(palettes)][kind]
 
 
 def on_wave_start(wave):
