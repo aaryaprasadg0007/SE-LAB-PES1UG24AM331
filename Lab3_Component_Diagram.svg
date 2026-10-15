@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+ <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B344A" flood-opacity="0.10"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="#F7F9FC"/>
+<text x="70" y="62" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#17324D">Self-Service Coffee Kiosk</text>
+<text x="72" y="98" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#617487">UML component diagram | Selected style: Layered architecture</text>
+<!-- Architecture layers -->
+<rect x="70" y="130" width="1460" height="185" rx="14" fill="#EAF2F8" stroke="#D6E1EA"/>
+<rect x="70" y="335" width="1460" height="350" rx="14" fill="#F2F6F9" stroke="#D6E1EA"/>
+<rect x="70" y="705" width="1460" height="175" rx="14" fill="#E9F3F1" stroke="#D0E5E0"/>
+<text x="96" y="162" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#245B7A">PRESENTATION LAYER</text>
+<text x="96" y="367" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#245B7A">BUSINESS AND HARDWARE-INTEGRATION LAYER</text>
+<text x="96" y="737" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#287D79">DATA LAYER</text>
+<!-- Connectors first so they appear behind components -->
+<path d="M800 275 V490" fill="none" stroke="#526B83" stroke-width="2.4"/>
+<path d="M410 545 H610" fill="none" stroke="#526B83" stroke-width="2.4"/>
+<path d="M990 545 H1190" fill="none" stroke="#526B83" stroke-width="2.4"/>
+<path d="M800 600 V765" fill="none" stroke="#526B83" stroke-width="2.4"/>
+<!-- Interface labels placed in clear space, not over the connectors -->
+<text x="828" y="378" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#17324D">OrderControl</text>
+<text x="828" y="399" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#617487">submit order and return status</text>
+<text x="510" y="462" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#17324D">CardPayment</text>
+<text x="510" y="482" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#617487">authorization and result</text>
+<text x="1090" y="462" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#17324D">ReceiptPrint</text>
+<text x="1090" y="482" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#617487">receipt data and printer driver</text>
+<text x="828" y="670" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#17324D">MenuCatalog</text>
+<text x="828" y="691" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#617487">menu and pricing lookup (SQL)</text>
+<!-- Touchscreen UI -->
+<g filter="url(#shadow)"><rect x="600" y="185" width="400" height="90" rx="10" fill="#FFFFFF" stroke="#8DA0B3" stroke-width="1.5"/></g>
+<rect x="600" y="185" width="8" height="90" rx="4" fill="#245B7A"/>
+<text x="626" y="211" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" fill="#617487">&lt;&lt;component&gt;&gt;</text>
+<text x="626" y="237" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#17324D">Touchscreen UI</text>
+<text x="626" y="259" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#617487">Coffee selection, size choice and checkout</text>
+<rect x="958" y="199" width="19" height="20" rx="2" fill="#FFFFFF" stroke="#245B7A" stroke-width="1.5"/>
+<path d="M963 204 h9 M963 209 h9 M963 214 h6" stroke="#245B7A" stroke-width="1.4"/>
+<!-- Payment Service -->
+<g filter="url(#shadow)"><rect x="100" y="495" width="310" height="100" rx="10" fill="#FFFFFF" stroke="#8DA0B3" stroke-width="1.5"/></g>
+<rect x="100" y="495" width="8" height="100" rx="4" fill="#DCA648"/>
+<text x="125" y="521" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" fill="#617487">&lt;&lt;component&gt;&gt;</text>
+<text x="125" y="548" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#17324D">Payment Service</text>
+<text x="125" y="572" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#617487">Credit-card authorization and status</text>
+<rect x="374" y="509" width="19" height="20" rx="2" fill="#FFFFFF" stroke="#DCA648" stroke-width="1.5"/>
+<path d="M379 514 h9 M379 519 h9 M379 524 h6" stroke="#DCA648" stroke-width="1.4"/>
+<!-- Order Manager -->
+<g filter="url(#shadow)"><rect x="610" y="490" width="380" height="110" rx="10" fill="#FFFFFF" stroke="#8DA0B3" stroke-width="1.5"/></g>
+<rect x="610" y="490" width="8" height="110" rx="4" fill="#17324D"/>
+<text x="636" y="519" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" fill="#617487">&lt;&lt;component&gt;&gt;</text>
+<text x="636" y="547" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#17324D">Order Manager</text>
+<text x="636" y="572" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#617487">Validates order and coordinates checkout</text>
+<rect x="948" y="505" width="19" height="20" rx="2" fill="#FFFFFF" stroke="#17324D" stroke-width="1.5"/>
+<path d="M953 510 h9 M953 515 h9 M953 520 h6" stroke="#17324D" stroke-width="1.4"/>
+<!-- Receipt Printer Adapter -->
+<g filter="url(#shadow)"><rect x="1190" y="495" width="310" height="100" rx="10" fill="#FFFFFF" stroke="#8DA0B3" stroke-width="1.5"/></g>
+<rect x="1190" y="495" width="8" height="100" rx="4" fill="#287D79"/>
+<text x="1215" y="521" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" fill="#617487">&lt;&lt;component&gt;&gt;</text>
+<text x="1215" y="548" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#17324D">Receipt Printer Adapter</text>
+<text x="1215" y="572" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#617487">Formats and sends receipt to printer</text>
+<rect x="1464" y="509" width="19" height="20" rx="2" fill="#FFFFFF" stroke="#287D79" stroke-width="1.5"/>
+<path d="M1469 514 h9 M1469 519 h9 M1469 524 h6" stroke="#287D79" stroke-width="1.4"/>
+<!-- Menu and pricing database -->
+<g filter="url(#shadow)"><rect x="610" y="765" width="380" height="90" rx="10" fill="#FFFFFF" stroke="#8DA0B3" stroke-width="1.5"/></g>
+<rect x="610" y="765" width="8" height="90" rx="4" fill="#287D79"/>
+<text x="636" y="791" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" fill="#617487">&lt;&lt;component&gt;&gt;</text>
+<text x="636" y="817" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#17324D">Menu &amp; Pricing Database</text>
+<text x="636" y="839" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#617487">Coffee types, sizes and prices</text>
+<rect x="948" y="779" width="19" height="20" rx="2" fill="#FFFFFF" stroke="#287D79" stroke-width="1.5"/>
+<path d="M953 784 h9 M953 789 h9 M953 794 h6" stroke="#287D79" stroke-width="1.4"/>
+<!-- UML assembly interface symbols: ball = provided, socket = required -->
+<!-- OrderControl: UI requires (socket); Order Manager provides (ball) -->
+<path d="M790 275 C790 261 810 261 810 275" fill="none" stroke="#17324D" stroke-width="2.4"/>
+<circle cx="800" cy="490" r="6.5" fill="#FFFFFF" stroke="#17324D" stroke-width="2.4"/>
+<!-- CardPayment: Order Manager requires (socket); Payment Service provides (ball) -->
+<circle cx="410" cy="545" r="6.5" fill="#FFFFFF" stroke="#DCA648" stroke-width="2.4"/>
+<path d="M610 535 C624 535 624 555 610 555" fill="none" stroke="#17324D" stroke-width="2.4"/>
+<!-- ReceiptPrint: Order Manager requires (socket); Receipt Printer Adapter provides (ball) -->
+<path d="M990 535 C976 535 976 555 990 555" fill="none" stroke="#17324D" stroke-width="2.4"/>
+<circle cx="1190" cy="545" r="6.5" fill="#FFFFFF" stroke="#287D79" stroke-width="2.4"/>
+<!-- MenuCatalog: Order Manager requires (socket); database provides (ball) -->
+<path d="M790 600 C790 586 810 586 810 600" fill="none" stroke="#17324D" stroke-width="2.4"/>
+<circle cx="800" cy="765" r="6.5" fill="#FFFFFF" stroke="#287D79" stroke-width="2.4"/>
+<!-- Legend -->
+<rect x="70" y="900" width="1460" height="55" rx="11" fill="#FFFFFF" stroke="#D8E1E9"/>
+<circle cx="105" cy="927" r="6" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/>
+<text x="122" y="932" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#203040">Provided interface (ball)</text>
+<path d="M340 919 C352 919 352 935 340 935" fill="none" stroke="#17324D" stroke-width="2"/>
+<text x="360" y="932" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#203040">Required interface (socket)</text>
+<path d="M565 927 H615" fill="none" stroke="#526B83" stroke-width="2.4"/>
+<text x="630" y="932" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#203040">Assembly connector with named service contract</text>
+<text x="1500" y="984" font-family="Arial,Helvetica,sans-serif" font-size="11.5" fill="#617487" text-anchor="end">Lab 3 | Component Modelling &amp; Architectural Pattern Selection</text>
+</svg>

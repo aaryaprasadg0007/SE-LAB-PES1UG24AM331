@@ -1,0 +1,277 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 1200 750] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 5786 >>
+stream
+0.97 0.98 0.99 rg
+0 0 1200 750 re f
+0.09 0.2 0.3 rg
+BT /F2 24 Tf 1 0 0 1 52 706 Tm (Self-Service Coffee Kiosk) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 11 Tf 1 0 0 1 53 680 Tm (UML component diagram | Selected style: Layered architecture) Tj ET
+0.92 0.95 0.97 rg
+0.84 0.88 0.92 RG
+0.8 w
+52 514 1096 140 re B
+0.95 0.97 0.98 rg
+0.84 0.88 0.92 RG
+0.8 w
+52 235 1096 264 re B
+0.91 0.96 0.95 rg
+0.82 0.9 0.88 RG
+0.8 w
+52 90 1096 130 re B
+0.14 0.36 0.48 rg
+BT /F2 10 Tf 1 0 0 1 72 630 Tm (PRESENTATION LAYER) Tj ET
+0.14 0.36 0.48 rg
+BT /F2 10 Tf 1 0 0 1 72 475 Tm (BUSINESS AND HARDWARE-INTEGRATION LAYER) Tj ET
+0.16 0.49 0.47 rg
+BT /F2 10 Tf 1 0 0 1 72 196 Tm (DATA LAYER) Tj ET
+0.32 0.42 0.52 RG
+1.4 w 600 545 m 600 382 l S
+0.32 0.42 0.52 RG
+1.4 w 310 341 m 455 341 l S
+0.32 0.42 0.52 RG
+1.4 w 745 341 m 890 341 l S
+0.32 0.42 0.52 RG
+1.4 w 600 300 m 600 172 l S
+0.09 0.2 0.3 rg
+BT /F2 12 Tf 1 0 0 1 620 451 Tm (OrderControl) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 9 Tf 1 0 0 1 620 434 Tm (submit order and return status) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 11 Tf 1 0 0 1 382 402 Tm (CardPayment) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.5 Tf 1 0 0 1 365 385 Tm (authorization and result) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 11 Tf 1 0 0 1 785 402 Tm (ReceiptPrint) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.5 Tf 1 0 0 1 783 385 Tm (receipt data / printer driver) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 12 Tf 1 0 0 1 620 250 Tm (MenuCatalog) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 9 Tf 1 0 0 1 620 233 Tm (menu and pricing lookup \(SQL\)) Tj ET
+1 1 1 rg
+0.55 0.63 0.7 RG
+1 w
+450 545 300 65 re B
+0.14 0.36 0.48 rg
+450 545 6 65 re f
+0.38 0.45 0.52 rg
+BT /F2 8 Tf 1 0 0 1 468 592 Tm (<<component>>) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 15 Tf 1 0 0 1 468 571 Tm (Touchscreen UI) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.8 Tf 1 0 0 1 468 551 Tm (Coffee choice, size and checkout) Tj ET
+1 1 1 rg
+0.14 0.36 0.48 RG
+1 w
+722 583 14 16 re B
+0.14 0.36 0.48 RG
+0.8 w 726 595 m 733 595 l S
+0.14 0.36 0.48 RG
+0.8 w 726 591 m 733 591 l S
+0.14 0.36 0.48 RG
+0.8 w 726 587 m 731 587 l S
+1 1 1 rg
+0.55 0.63 0.7 RG
+1 w
+88 307 222 68 re B
+0.86 0.65 0.28 rg
+88 307 6 68 re f
+0.38 0.45 0.52 rg
+BT /F2 8 Tf 1 0 0 1 106 357 Tm (<<component>>) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 12 Tf 1 0 0 1 106 336 Tm (Payment Service) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.8 Tf 1 0 0 1 106 316 Tm (Credit-card authorization and status) Tj ET
+1 1 1 rg
+0.86 0.65 0.28 RG
+1 w
+282 348 14 16 re B
+0.86 0.65 0.28 RG
+0.8 w 286 360 m 293 360 l S
+0.86 0.65 0.28 RG
+0.8 w 286 356 m 293 356 l S
+0.86 0.65 0.28 RG
+0.8 w 286 352 m 291 352 l S
+1 1 1 rg
+0.55 0.63 0.7 RG
+1 w
+455 300 290 82 re B
+0.09 0.2 0.3 rg
+455 300 6 82 re f
+0.38 0.45 0.52 rg
+BT /F2 8 Tf 1 0 0 1 473 364 Tm (<<component>>) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 15 Tf 1 0 0 1 473 343 Tm (Order Manager) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.8 Tf 1 0 0 1 473 323 Tm (Validates order and coordinates checkout) Tj ET
+1 1 1 rg
+0.09 0.2 0.3 RG
+1 w
+717 355 14 16 re B
+0.09 0.2 0.3 RG
+0.8 w 721 367 m 728 367 l S
+0.09 0.2 0.3 RG
+0.8 w 721 363 m 728 363 l S
+0.09 0.2 0.3 RG
+0.8 w 721 359 m 726 359 l S
+1 1 1 rg
+0.55 0.63 0.7 RG
+1 w
+890 307 222 68 re B
+0.16 0.49 0.47 rg
+890 307 6 68 re f
+0.38 0.45 0.52 rg
+BT /F2 8 Tf 1 0 0 1 908 357 Tm (<<component>>) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 11.5 Tf 1 0 0 1 908 336 Tm (Receipt Printer Adapter) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.8 Tf 1 0 0 1 908 316 Tm (Formats and sends printed receipt) Tj ET
+1 1 1 rg
+0.16 0.49 0.47 RG
+1 w
+1084 348 14 16 re B
+0.16 0.49 0.47 RG
+0.8 w 1088 360 m 1095 360 l S
+0.16 0.49 0.47 RG
+0.8 w 1088 356 m 1095 356 l S
+0.16 0.49 0.47 RG
+0.8 w 1088 352 m 1093 352 l S
+1 1 1 rg
+0.55 0.63 0.7 RG
+1 w
+455 110 290 62 re B
+0.16 0.49 0.47 rg
+455 110 6 62 re f
+0.38 0.45 0.52 rg
+BT /F2 8 Tf 1 0 0 1 473 154 Tm (<<component>>) Tj ET
+0.09 0.2 0.3 rg
+BT /F2 13 Tf 1 0 0 1 473 133 Tm (Menu & Pricing Database) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 8.8 Tf 1 0 0 1 473 113 Tm (Coffee types, sizes and prices) Tj ET
+1 1 1 rg
+0.16 0.49 0.47 RG
+1 w
+717 145 14 16 re B
+0.16 0.49 0.47 RG
+0.8 w 721 157 m 728 157 l S
+0.16 0.49 0.47 RG
+0.8 w 721 153 m 728 153 l S
+0.16 0.49 0.47 RG
+0.8 w 721 149 m 726 149 l S
+0.09 0.2 0.3 RG
+1.8 w
+592 545 m
+592 557 608 557 608 545 c
+S
+1 1 1 rg
+0.09 0.2 0.3 RG
+1.7 w
+604.5 382 m
+604.5 384.49 602.49 386.5 600 386.5 c
+597.51 386.5 595.5 384.49 595.5 382 c
+595.5 379.51 597.51 377.5 600 377.5 c
+602.49 377.5 604.5 379.51 604.5 382 c
+B
+1 1 1 rg
+0.86 0.65 0.28 RG
+1.7 w
+314.5 341 m
+314.5 343.49 312.49 345.5 310 345.5 c
+307.51 345.5 305.5 343.49 305.5 341 c
+305.5 338.51 307.51 336.5 310 336.5 c
+312.49 336.5 314.5 338.51 314.5 341 c
+B
+0.09 0.2 0.3 RG
+1.8 w
+455 349 m
+466 349 466 333 455 333 c
+S
+0.09 0.2 0.3 RG
+1.8 w
+745 349 m
+734 349 734 333 745 333 c
+S
+1 1 1 rg
+0.16 0.49 0.47 RG
+1.7 w
+894.5 341 m
+894.5 343.49 892.49 345.5 890 345.5 c
+887.51 345.5 885.5 343.49 885.5 341 c
+885.5 338.51 887.51 336.5 890 336.5 c
+892.49 336.5 894.5 338.51 894.5 341 c
+B
+0.09 0.2 0.3 RG
+1.8 w
+592 300 m
+592 312 608 312 608 300 c
+S
+1 1 1 rg
+0.16 0.49 0.47 RG
+1.7 w
+604.5 172 m
+604.5 174.49 602.49 176.5 600 176.5 c
+597.51 176.5 595.5 174.49 595.5 172 c
+595.5 169.51 597.51 167.5 600 167.5 c
+602.49 167.5 604.5 169.51 604.5 172 c
+B
+1 1 1 rg
+0.84 0.88 0.92 RG
+0.8 w
+52 33 1096 42 re B
+1 1 1 rg
+0.09 0.2 0.3 RG
+1.4 w
+82.2 54 m
+82.2 56.32 80.32 58.2 78 58.2 c
+75.68 58.2 73.8 56.32 73.8 54 c
+73.8 51.68 75.68 49.8 78 49.8 c
+80.32 49.8 82.2 51.68 82.2 54 c
+B
+0.13 0.19 0.25 rg
+BT /F1 9 Tf 1 0 0 1 91 50 Tm (Provided interface \(ball\)) Tj ET
+0.09 0.2 0.3 RG
+1.4 w
+238 60 m
+248 60 248 48 238 48 c
+S
+0.13 0.19 0.25 rg
+BT /F1 9 Tf 1 0 0 1 256 50 Tm (Required interface \(socket\)) Tj ET
+0.32 0.42 0.52 RG
+1.4 w 420 54 m 456 54 l S
+0.13 0.19 0.25 rg
+BT /F1 9 Tf 1 0 0 1 468 50 Tm (Assembly connector with named service contract) Tj ET
+0.38 0.45 0.52 rg
+BT /F1 7.2 Tf 1 0 0 1 894 11 Tm (Lab 3 | Component Modelling & Architectural Pattern Selection) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000252 00000 n 
+0000000322 00000 n 
+0000000397 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6234
+%%EOF
