@@ -1,0 +1,5 @@
+Local validation (2026-10-15):
+- 5 unit tests passed.
+- Python syntax compilation passed for game.py, evidence/baseline_game.py, and tests/test_game_logic.py. The 10-second videos were encoded with FFmpeg from deterministic Python-drawn frames.
+- Pygame could not be installed in the preparation environment because package network access was unavailable, so an interactive run was not performed here.
+- The MP4s in videos/ are 10-second deterministic gameplay demonstrations, not AI-generated videos and not screen recordings from a running Pygame window.
